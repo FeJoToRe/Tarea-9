@@ -4,13 +4,24 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: rgb(222, 236, 25);
-
+.container {
+    width: 100%;
+    height: 65vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 65vh;
+    flex-direction: column;
+    gap: 15%;
+    
+
+}
+
+body {
+    background-color: rgb(222, 236, 25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .texto-central {
@@ -25,17 +36,40 @@ body {
     font-size: 50px;
 }
 
-.tarjeta{
+.tarjeta {
 
-    background-color: white;
-    width: 400px;
-    height: 200px;
+    background-color: white !important;
+    width: 240px;
+    height: 300px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     border-radius: 10px;
-
-
+    flex-direction: column;
 }
 
-li{ list-style: none;}
+.tarjeta-central {
+
+    background-color: white !important;
+    width: 240px;
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+    flex-direction: column;
+}
+
+
+li {
+    list-style: none;
+}
+
+.cajonTarjetas {
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 50px;
+
+}
