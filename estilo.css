@@ -12,7 +12,7 @@
     align-items: center;
     flex-direction: column;
     gap: 15%;
-    
+
 
 }
 
@@ -21,7 +21,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 .texto-central {
@@ -39,8 +39,8 @@ body {
 .tarjeta {
 
     background-color: white !important;
-    width: 240px;
-    height: 400px;
+    width: 340px;
+    height: 500px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -51,8 +51,8 @@ body {
 .tarjeta-central {
 
     background-color: white !important;
-    width: 240px;
-    height: 450px;
+    width: 340px;
+    height: 550px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -99,4 +99,31 @@ li {
     color: rgb(0, 0, 0);
     padding: 18px;
 
+}
+
+h3 {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    color: sandybrown;
+}
+
+.precio {
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    color: rgb(42, 150, 180);
+    font-weight: bold;
+}
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+li {
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    text-justify: auto;
 }
